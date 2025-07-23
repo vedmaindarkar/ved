@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YummyFast - Food Delivery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>🍔 YummyFast</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#order">Order</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <h2>Fast. Fresh. Delivered.</h2>
+    <p>Your favorite meals delivered at lightning speed!</p>
+    <a href="#menu" class="btn">Explore Menu</a>
+  </section>
+
+  <section class="menu" id="menu">
+    <h2>Our Popular Dishes</h2>
+    <div class="menu-grid">
+      <div class="card">
+        <img src="https://source.unsplash.com/300x200/?burger" alt="Burger">
+        <h3>Double Cheeseburger</h3>
+        <p>Rs. 180</p>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/300x200/?pizza" alt="Pizza">
+        <h3>Margherita Pizza</h3>
+        <p>Rs. 250</p>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/300x200/?noodles" alt="Noodles">
+        <h3>Spicy Noodles</h3>
+        <p>Rs. 120</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="order-form" id="order">
+    <h2>Place Your Order</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="tel" placeholder="Mobile Number" required>
+      <input type="text" placeholder="Address" required>
+      <select required>
+        <option value="">Select Food Item</option>
+        <option value="burger">Burger</option>
+        <option value="pizza">Pizza</option>
+        <option value="noodles">Noodles</option>
+      </select>
+      <button type="submit" class="btn">Order Now</button>
+    </form>
+  </section>
+
+  <footer id="contact">
+    <p>📞 +91 98765 43210 | 📧 support@yummyfast.com</p>
+    <p>© 2025 YummyFast. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
